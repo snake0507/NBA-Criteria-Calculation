@@ -1,0 +1,42 @@
+body{
+  background-image: url(/assets/back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.dataTable{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: solid 2px #A02929;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.form-box {
+  border: 2px solid #333;
+  padding: 20px;
+  width: auto;
+  margin: 0 auto;
+  background-color: #A02929;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.form-box label, .form-box input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-box button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
